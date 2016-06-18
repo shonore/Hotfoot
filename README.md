@@ -1,4 +1,4 @@
 # Hotfoot
 An Android Application
 
-This Android Application provides guidelines for the Design Sprint methodology in relation to Agile Software developement.
+This Android Application provides guidelines for the Design Sprint process developed by Google Venture's Jake Knapp.
