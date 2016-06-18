@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.hotfoot.Introduction_Cont"
+    android:background="#5C5C5C">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitleSprint"
+        android:id="@+id/txtTitleSprint"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        android:layout_marginTop="100sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtWhatIsSprint"
+        android:id="@+id/txtWhatIsSprint"
+        android:layout_below="@+id/txtTitleSprint"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:layout_marginTop="20sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnContinue"
+        android:id="@+id/btnContinue2"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#B35243"
+        android:layout_below="@+id/txtWhatIsSprint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp" />
+</RelativeLayout>

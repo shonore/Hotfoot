@@ -1,0 +1,341 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="net.androidbootcamp.hotfoot.Day_1"
+    android:background="#B35243"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1400dp"
+    android:id="@+id/Day1Layout"
+    android:orientation="vertical">
+    >
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imgDay1"
+        android:src="@drawable/hootfoot_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_day_1"
+        android:id="@+id/txtDay1"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/imgDay1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDay1Description"
+        android:id="@+id/txtDay1Description"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtDay1" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGoal"
+        android:hint="Enter Long Term Goal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtDay1Description"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:id="@+id/spinner2"
+        android:spinnerMode="dialog"
+        android:entries="@array/txtGroup"
+        android:layout_below="@+id/txtQuestion1"
+        android:layout_alignLeft="@+id/txtGoal"
+        android:prompt="@string/prompt"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuestion2"
+        android:hint="@string/txtQustions"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtAnswer2"
+        android:hint="@string/txtResponse"
+        android:layout_below="@+id/txtQuestion2"
+        android:layout_alignLeft="@+id/txtQuestion2"
+        android:layout_alignStart="@+id/txtQuestion2"
+        android:gravity="top"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:id="@+id/spinner3"
+        android:spinnerMode="dialog"
+        android:entries="@array/txtGroup"
+        android:layout_below="@+id/txtQ2"
+        android:layout_alignLeft="@+id/txtAnswer2"
+        android:layout_alignStart="@+id/txtAnswer2"
+        android:prompt="@string/prompt"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuestion3"
+        android:hint="@string/txtQustions"
+        android:layout_below="@+id/spinner3"
+        android:layout_alignLeft="@+id/spinner3"
+        android:layout_alignStart="@+id/spinner3"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtAnswer3"
+        android:hint="@string/txtResponse"
+        android:layout_below="@+id/txtQuestion3"
+        android:layout_alignLeft="@+id/txtQuestion3"
+        android:layout_alignStart="@+id/txtQuestion3"
+        android:gravity="left|top"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:id="@+id/spinner4"
+        android:spinnerMode="dialog"
+        android:entries="@array/txtGroup"
+        android:layout_below="@+id/txtQ3"
+        android:prompt="@string/prompt"
+        android:layout_alignLeft="@+id/txtAnswer3"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuestion4"
+        android:hint="@string/txtQustions"
+        android:layout_below="@+id/spinner4"
+        android:layout_alignLeft="@+id/spinner4"
+        android:layout_alignStart="@+id/spinner4"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtAnswer4"
+        android:hint="@string/txtResponse"
+        android:layout_below="@+id/txtQuestion4"
+        android:layout_alignLeft="@+id/txtQuestion4"
+        android:layout_alignStart="@+id/txtQuestion4"
+        android:gravity="left|top"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:id="@+id/spinner5"
+        android:spinnerMode="dialog"
+        android:entries="@array/txtGroup"
+        android:layout_below="@+id/txtQ4"
+        android:layout_alignLeft="@+id/txtAnswer4"
+        android:layout_alignStart="@+id/txtAnswer4"
+        android:prompt="@string/prompt"
+        android:layout_marginTop="5dp" />
+    />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuestion5"
+        android:hint="@string/txtQustions"
+        android:layout_below="@+id/spinner5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtAnswer5"
+        android:hint="@string/txtResponse"
+        android:layout_below="@+id/txtQuestion5"
+        android:layout_alignLeft="@+id/txtQuestion5"
+        android:layout_alignStart="@+id/txtQuestion6"
+        android:gravity="left|top"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:id="@+id/spinner6"
+        android:spinnerMode="dialog"
+        android:entries="@array/txtGroup"
+        android:layout_below="@+id/txtQ5"
+        android:layout_alignLeft="@+id/txtAnswer5"
+        android:layout_alignStart="@+id/txtAnswer5"
+        android:prompt="@string/prompt"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuestion6"
+        android:hint="@string/txtQustions"
+        android:layout_alignStart="@+id/spinner5"
+        android:layout_below="@+id/spinner6"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtAnswer6"
+        android:hint="@string/txtResponse"
+        android:layout_below="@+id/txtQuestion6"
+        android:layout_alignLeft="@+id/txtQuestion6"
+        android:layout_alignStart="@+id/txtQuestion6"
+        android:gravity="left|top"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/txtTarget"
+        android:layout_below="@+id/txtQuestionInstructions2"
+        android:layout_alignLeft="@+id/txtQuestionInstructions2"
+        android:layout_alignStart="@+id/txtAnswer6"
+        android:hint="@string/txtTarget"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDay1"
+        android:id="@+id/btnDay1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtTarget"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtQuestionInstructions"
+        android:id="@+id/txtQuestionInstructions"
+        android:layout_below="@+id/txtGoal"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtQuestionInstructions2"
+        android:id="@+id/txtQuestionInstructions2"
+        android:layout_below="@+id/txtAnswer6"
+        android:layout_alignLeft="@+id/txtAnswer6"
+        android:layout_alignStart="@+id/txtAnswer6"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1:"
+        android:id="@+id/txtQuestion1"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/txtQuestionInstructions"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/txtGoal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2:"
+        android:id="@+id/txtQ2"
+        android:layout_below="@+id/txtAnswer2"
+        android:layout_alignStart="@+id/txtQuestion1"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 3:"
+        android:id="@+id/txtQ3"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:layout_below="@+id/txtAnswer3"
+        android:layout_alignLeft="@+id/txtQ2"
+        android:layout_alignStart="@+id/txtQ2"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 4:"
+        android:id="@+id/txtQ4"
+        android:layout_below="@+id/txtAnswer4"
+        android:layout_alignLeft="@+id/txtQ3"
+        android:layout_alignStart="@+id/txtQ3"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 5:"
+        android:id="@+id/txtQ5"
+        android:layout_below="@+id/txtAnswer5"
+        android:layout_alignLeft="@+id/txtQ4"
+        android:layout_alignStart="@+id/txtQ4"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1Date"
+        android:layout_below="@+id/txtDay1"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+    //end
+</RelativeLayout>
+</ScrollView>
+
