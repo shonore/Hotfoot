@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hotfoot</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Hotfoot Welcome</string>
+    <string name="title_activity_registar">Registar Screen 1</string>
+    <string name="title_activity_day_1">Day 1: Map</string>
+    <string name="title_activity_day_2">Day 2: Sketch</string>
+    <string name="title_activity_day_3">Day 3: Decide</string>
+    <string name="title_activity_day_4">Day 4: Prototype</string>
+    <string name="title_activity_day_5">Day 5: Test</string>
+    <string name="txtTitle">HOTFOOT</string>
+    <string name="txtSlogan">Sprint Design Organization</string>
+    <string name="imgLogo">Hootfoot Logo</string>
+    <string name="btnNew">Lets Sprint</string>
+    <string name="btnLoad">Load Sprint</string>
+    <string name="txtSprintName">Enter Name of Sprint</string>
+    <string name="txtLocation">Enter Location of Sprint</string>
+    <string name="txtStartDate">Enter Start Date(MM/DD/YYYY)</string>
+    <string name="btnNext">Next</string>
+    <string-array name="txtGroup">
+        <item>Decider</item>
+        <item>Facilitator</item>
+        <item>Tech/Logistics Expert</item>
+        <item>Design Expert</item>
+        <item>Finance Expert</item>
+        <item>Customer Expert</item>
+        <item> Marketing Expert</item>
+        <item> Expert </item>
+    </string-array>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="btnContinue">Continue</string>
+    <string name="txtSprintIntro">What is Hotfoot Exactly?</string>
+    <string name="txtSprintDescription">Hotfoot is a Design Sprint Organizer (DSO).  The purpose of this app is to help organize the contents of a Sprint. One of the cardinal rules of a Sprint is to refrain from using technology to minimize distraction. This app is to be used during breaks or after the day Sprint is over. You would use this app to store key notes and picture made during the Sprint to reference at a later time.</string>
+    <string name="txtTeamTitle">Assemble Your Team</string>
+    <string name="txtTeamDescription">Below are a list of descriptions of who should make up your team Click on each title for more information.  </string>
+    <string name="txtDeciderDescription">The Decider is the most essential member of the team. This is the person that makes the executive decisions for the team. It is dire that this person make time on their calender to be involved in every step of the Sprint.</string>
+    <string name="title_activity_introduction__cont">Introduction_Cont</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtTitleSprint">What is a Sprint?</string>
+    <string name="txtWhatIsSprint">A Sprint is a 5 day Product Design method developed by the team at Google Ventures(GV). During this event a small team of experts collaborate to Map, Design, Prototype, and Test a product. The types of products that can be developed can be either tangible or abstract.</string>
+    <string name="txtDay1Description">Today you and your team with map out your project. You must first establish a Long Term goal for the project, then list Sprint questions, create a design map and finally, pick a target customer for the product.</string>
+    <string name="btnDay1">On to The Next One</string>
+    <string name="btnInfo">Lets Begin</string>
+    <string name="txtQustions">How Could We...</string>
+    <string name="txtResponse">Enter Response</string>
+    <string name="prompt">Who is Asking?</string>
+    <string name="txtTarget">Enter Target Customer(s)</string>
+    <string name="txtQuestionInstructions">Enter 5 Questions About the Product:</string>
+    <string name="txtQuestionInstructions2">Enter the Target Customer(s) of Your Product:</string>
+    <string name="txtQuestion2">Question 2:</string>
+    <string name="txtDay2Description">Today you can your team will sketch out our design ideas. Begin Whiteboarding activities so you can visualize how your product will look and feel.</string>
+
+</resources>
